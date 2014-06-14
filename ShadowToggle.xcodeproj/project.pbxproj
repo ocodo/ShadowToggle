@@ -18,7 +18,6 @@
 		96070816194C141F00AAD075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96070814194C141F00AAD075 /* InfoPlist.strings */; };
 		96070818194C141F00AAD075 /* ShadowToggleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96070817194C141F00AAD075 /* ShadowToggleTests.m */; };
 		96070823194C18CA00AAD075 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96070821194C18CA00AAD075 /* MainMenu.xib */; };
-		96070826194C1E4F00AAD075 /* statusImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 96070824194C1E4F00AAD075 /* statusImage.png */; };
 		96070827194C1E4F00AAD075 /* statusImageAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 96070825194C1E4F00AAD075 /* statusImageAlt.png */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +51,6 @@
 		96070815194C141F00AAD075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96070817194C141F00AAD075 /* ShadowToggleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowToggleTests.m; sourceTree = "<group>"; };
 		96070822194C18CA00AAD075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ShadowToggle/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		96070824194C1E4F00AAD075 /* statusImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusImage.png; sourceTree = SOURCE_ROOT; };
 		96070825194C1E4F00AAD075 /* statusImageAlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusImageAlt.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -130,7 +128,6 @@
 		960707F4194C141F00AAD075 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				96070824194C1E4F00AAD075 /* statusImage.png */,
 				96070825194C1E4F00AAD075 /* statusImageAlt.png */,
 				96070821194C18CA00AAD075 /* MainMenu.xib */,
 				960707F5194C141F00AAD075 /* ShadowToggle-Info.plist */,
@@ -240,7 +237,6 @@
 				960707F8194C141F00AAD075 /* InfoPlist.strings in Resources */,
 				96070827194C1E4F00AAD075 /* statusImageAlt.png in Resources */,
 				96070806194C141F00AAD075 /* Images.xcassets in Resources */,
-				96070826194C1E4F00AAD075 /* statusImage.png in Resources */,
 				960707FE194C141F00AAD075 /* Credits.rtf in Resources */,
 				96070823194C18CA00AAD075 /* MainMenu.xib in Resources */,
 			);
@@ -476,6 +472,7 @@
 				9607081D194C141F00AAD075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9607081E194C141F00AAD075 /* Build configuration list for PBXNativeTarget "ShadowToggleTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +481,7 @@
 				96070820194C141F00AAD075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
