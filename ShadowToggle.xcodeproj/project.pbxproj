@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960707EE194C141F00AAD075 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960707ED194C141F00AAD075 /* Cocoa.framework */; };
+		960707F8194C141F00AAD075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 960707F6194C141F00AAD075 /* InfoPlist.strings */; };
+		960707FA194C141F00AAD075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960707F9194C141F00AAD075 /* main.m */; };
+		960707FE194C141F00AAD075 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 960707FC194C141F00AAD075 /* Credits.rtf */; };
+		96070801194C141F00AAD075 /* OCODOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96070800194C141F00AAD075 /* OCODOAppDelegate.m */; };
+		96070804194C141F00AAD075 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96070802194C141F00AAD075 /* MainMenu.xib */; };
+		96070806194C141F00AAD075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96070805194C141F00AAD075 /* Images.xcassets */; };
+		9607080D194C141F00AAD075 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9607080C194C141F00AAD075 /* XCTest.framework */; };
+		9607080E194C141F00AAD075 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960707ED194C141F00AAD075 /* Cocoa.framework */; };
+		96070816194C141F00AAD075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96070814194C141F00AAD075 /* InfoPlist.strings */; };
+		96070818194C141F00AAD075 /* ShadowToggleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96070817194C141F00AAD075 /* ShadowToggleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9607080F194C141F00AAD075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960707E2194C141F00AAD075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960707E9194C141F00AAD075;
+			remoteInfo = ShadowToggle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960707EA194C141F00AAD075 /* ShadowToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960707ED194C141F00AAD075 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		960707F0194C141F00AAD075 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		960707F1194C141F00AAD075 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		960707F2194C141F00AAD075 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		960707F5194C141F00AAD075 /* ShadowToggle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowToggle-Info.plist"; sourceTree = "<group>"; };
+		960707F7194C141F00AAD075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		960707F9194C141F00AAD075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		960707FB194C141F00AAD075 /* ShadowToggle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowToggle-Prefix.pch"; sourceTree = "<group>"; };
+		960707FD194C141F00AAD075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		960707FF194C141F00AAD075 /* OCODOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCODOAppDelegate.h; sourceTree = "<group>"; };
+		96070800194C141F00AAD075 /* OCODOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCODOAppDelegate.m; sourceTree = "<group>"; };
+		96070803194C141F00AAD075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96070805194C141F00AAD075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9607080B194C141F00AAD075 /* ShadowToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9607080C194C141F00AAD075 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		96070813194C141F00AAD075 /* ShadowToggleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowToggleTests-Info.plist"; sourceTree = "<group>"; };
+		96070815194C141F00AAD075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96070817194C141F00AAD075 /* ShadowToggleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowToggleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960707E7194C141F00AAD075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960707EE194C141F00AAD075 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96070808194C141F00AAD075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9607080E194C141F00AAD075 /* Cocoa.framework in Frameworks */,
+				9607080D194C141F00AAD075 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960707E1194C141F00AAD075 = {
+			isa = PBXGroup;
+			children = (
+				960707F3194C141F00AAD075 /* ShadowToggle */,
+				96070811194C141F00AAD075 /* ShadowToggleTests */,
+				960707EC194C141F00AAD075 /* Frameworks */,
+				960707EB194C141F00AAD075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960707EB194C141F00AAD075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960707EA194C141F00AAD075 /* ShadowToggle.app */,
+				9607080B194C141F00AAD075 /* ShadowToggleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960707EC194C141F00AAD075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960707ED194C141F00AAD075 /* Cocoa.framework */,
+				9607080C194C141F00AAD075 /* XCTest.framework */,
+				960707EF194C141F00AAD075 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		960707EF194C141F00AAD075 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960707F0194C141F00AAD075 /* AppKit.framework */,
+				960707F1194C141F00AAD075 /* CoreData.framework */,
+				960707F2194C141F00AAD075 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		960707F3194C141F00AAD075 /* ShadowToggle */ = {
+			isa = PBXGroup;
+			children = (
+				960707FF194C141F00AAD075 /* OCODOAppDelegate.h */,
+				96070800194C141F00AAD075 /* OCODOAppDelegate.m */,
+				96070802194C141F00AAD075 /* MainMenu.xib */,
+				96070805194C141F00AAD075 /* Images.xcassets */,
+				960707F4194C141F00AAD075 /* Supporting Files */,
+			);
+			path = ShadowToggle;
+			sourceTree = "<group>";
+		};
+		960707F4194C141F00AAD075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960707F5194C141F00AAD075 /* ShadowToggle-Info.plist */,
+				960707F6194C141F00AAD075 /* InfoPlist.strings */,
+				960707F9194C141F00AAD075 /* main.m */,
+				960707FB194C141F00AAD075 /* ShadowToggle-Prefix.pch */,
+				960707FC194C141F00AAD075 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96070811194C141F00AAD075 /* ShadowToggleTests */ = {
+			isa = PBXGroup;
+			children = (
+				96070817194C141F00AAD075 /* ShadowToggleTests.m */,
+				96070812194C141F00AAD075 /* Supporting Files */,
+			);
+			path = ShadowToggleTests;
+			sourceTree = "<group>";
+		};
+		96070812194C141F00AAD075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96070813194C141F00AAD075 /* ShadowToggleTests-Info.plist */,
+				96070814194C141F00AAD075 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960707E9194C141F00AAD075 /* ShadowToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9607081B194C141F00AAD075 /* Build configuration list for PBXNativeTarget "ShadowToggle" */;
+			buildPhases = (
+				960707E6194C141F00AAD075 /* Sources */,
+				960707E7194C141F00AAD075 /* Frameworks */,
+				960707E8194C141F00AAD075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowToggle;
+			productName = ShadowToggle;
+			productReference = 960707EA194C141F00AAD075 /* ShadowToggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9607080A194C141F00AAD075 /* ShadowToggleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9607081E194C141F00AAD075 /* Build configuration list for PBXNativeTarget "ShadowToggleTests" */;
+			buildPhases = (
+				96070807194C141F00AAD075 /* Sources */,
+				96070808194C141F00AAD075 /* Frameworks */,
+				96070809194C141F00AAD075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96070810194C141F00AAD075 /* PBXTargetDependency */,
+			);
+			name = ShadowToggleTests;
+			productName = ShadowToggleTests;
+			productReference = 9607080B194C141F00AAD075 /* ShadowToggleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960707E2194C141F00AAD075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OCODO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ocodo;
+				TargetAttributes = {
+					9607080A194C141F00AAD075 = {
+						TestTargetID = 960707E9194C141F00AAD075;
+					};
+				};
+			};
+			buildConfigurationList = 960707E5194C141F00AAD075 /* Build configuration list for PBXProject "ShadowToggle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960707E1194C141F00AAD075;
+			productRefGroup = 960707EB194C141F00AAD075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960707E9194C141F00AAD075 /* ShadowToggle */,
+				9607080A194C141F00AAD075 /* ShadowToggleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960707E8194C141F00AAD075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960707F8194C141F00AAD075 /* InfoPlist.strings in Resources */,
+				96070806194C141F00AAD075 /* Images.xcassets in Resources */,
+				960707FE194C141F00AAD075 /* Credits.rtf in Resources */,
+				96070804194C141F00AAD075 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96070809194C141F00AAD075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96070816194C141F00AAD075 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960707E6194C141F00AAD075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960707FA194C141F00AAD075 /* main.m in Sources */,
+				96070801194C141F00AAD075 /* OCODOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96070807194C141F00AAD075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96070818194C141F00AAD075 /* ShadowToggleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96070810194C141F00AAD075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960707E9194C141F00AAD075 /* ShadowToggle */;
+			targetProxy = 9607080F194C141F00AAD075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960707F6194C141F00AAD075 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960707F7194C141F00AAD075 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		960707FC194C141F00AAD075 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960707FD194C141F00AAD075 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		96070802194C141F00AAD075 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96070803194C141F00AAD075 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		96070814194C141F00AAD075 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96070815194C141F00AAD075 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96070819194C141F00AAD075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9607081A194C141F00AAD075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9607081C194C141F00AAD075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowToggle/ShadowToggle-Prefix.pch";
+				INFOPLIST_FILE = "ShadowToggle/ShadowToggle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9607081D194C141F00AAD075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowToggle/ShadowToggle-Prefix.pch";
+				INFOPLIST_FILE = "ShadowToggle/ShadowToggle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9607081F194C141F00AAD075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowToggle.app/Contents/MacOS/ShadowToggle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowToggle/ShadowToggle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShadowToggleTests/ShadowToggleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		96070820194C141F00AAD075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShadowToggle.app/Contents/MacOS/ShadowToggle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowToggle/ShadowToggle-Prefix.pch";
+				INFOPLIST_FILE = "ShadowToggleTests/ShadowToggleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960707E5194C141F00AAD075 /* Build configuration list for PBXProject "ShadowToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96070819194C141F00AAD075 /* Debug */,
+				9607081A194C141F00AAD075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9607081B194C141F00AAD075 /* Build configuration list for PBXNativeTarget "ShadowToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9607081C194C141F00AAD075 /* Debug */,
+				9607081D194C141F00AAD075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9607081E194C141F00AAD075 /* Build configuration list for PBXNativeTarget "ShadowToggleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9607081F194C141F00AAD075 /* Debug */,
+				96070820194C141F00AAD075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960707E2194C141F00AAD075 /* Project object */;
+}
