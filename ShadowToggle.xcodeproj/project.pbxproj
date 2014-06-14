@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9606AA69194C2F390099CA17 /* statusImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9606AA68194C2F390099CA17 /* statusImage.png */; };
 		960707EE194C141F00AAD075 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960707ED194C141F00AAD075 /* Cocoa.framework */; };
 		960707F8194C141F00AAD075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 960707F6194C141F00AAD075 /* InfoPlist.strings */; };
 		960707FA194C141F00AAD075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960707F9194C141F00AAD075 /* main.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9606AA68194C2F390099CA17 /* statusImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusImage.png; sourceTree = SOURCE_ROOT; };
 		960707EA194C141F00AAD075 /* ShadowToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960707ED194C141F00AAD075 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		960707F0194C141F00AAD075 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -128,6 +130,7 @@
 		960707F4194C141F00AAD075 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9606AA68194C2F390099CA17 /* statusImage.png */,
 				96070825194C1E4F00AAD075 /* statusImageAlt.png */,
 				96070821194C18CA00AAD075 /* MainMenu.xib */,
 				960707F5194C141F00AAD075 /* ShadowToggle-Info.plist */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				960707F8194C141F00AAD075 /* InfoPlist.strings in Resources */,
+				9606AA69194C2F390099CA17 /* statusImage.png in Resources */,
 				96070827194C1E4F00AAD075 /* statusImageAlt.png in Resources */,
 				96070806194C141F00AAD075 /* Images.xcassets in Resources */,
 				960707FE194C141F00AAD075 /* Credits.rtf in Resources */,

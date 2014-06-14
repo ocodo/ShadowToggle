@@ -16,5 +16,6 @@
 }
 
 - (IBAction)toggleShadows:(NSMenuItem *)sender;
+- (IBAction)quit:(id)sender;
 
 @end

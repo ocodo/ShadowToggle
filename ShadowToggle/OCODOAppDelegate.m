@@ -29,15 +29,14 @@ bool toggle_shadows() {
 
 @implementation OCODOAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+
 }
 
 - (void)awakeFromNib{
     NSBundle *bundle = [NSBundle mainBundle];
     
-    statusImage = [[NSImage alloc] initWithContentsOfFile: [bundle pathForResource: @"statusImageAlt" ofType: @"png"]];
+    statusImage = [[NSImage alloc] initWithContentsOfFile: [bundle pathForResource: @"statusImage" ofType: @"png"]];
     statusImageAlt = [[NSImage alloc] initWithContentsOfFile: [bundle pathForResource: @"statusImageAlt" ofType: @"png"]];
     
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
@@ -48,7 +47,18 @@ bool toggle_shadows() {
 }
 
 - (IBAction)toggleShadows:(id)sender {
-    NSLog(@"Shadows: %i", toggle_shadows());
+    bool shadow_on;
+    shadow_on = toggle_shadows();
+    NSLog(@"Shadows: %i", shadow_on);
+    if(shadow_on){
+        [statusItem setImage: statusImage];
+    } else {
+        [statusItem setImage: statusImageAlt];
+    }
+}
+
+- (IBAction)quit:(id)sender {
+    [NSApp performSelector:@selector(terminate:) withObject:nil afterDelay:0.0];
 }
 
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F8AA142-75EC-46A7-9CF0-DF0D89A5DD4F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShadowToggle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>631BEF36-A5BE-4985-82F9-71DD3E459BCF</key>
+		<string>ssh://github.com/ocodo/ShadowToggle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShadowToggle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>631BEF36-A5BE-4985-82F9-71DD3E459BCF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ocodo/ShadowToggle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>631BEF36-A5BE-4985-82F9-71DD3E459BCF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>631BEF36-A5BE-4985-82F9-71DD3E459BCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ShadowToggle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
