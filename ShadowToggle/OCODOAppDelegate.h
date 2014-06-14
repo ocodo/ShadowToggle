@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface OCODOAppDelegate : NSObject <NSApplicationDelegate>
+@interface OCODOAppDelegate : NSObject {
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem * statusItem;
+    NSImage *statusImage;
+    NSImage *statusImageAlt;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+- (IBAction)toggleShadows:(NSMenuItem *)sender;
 
 @end

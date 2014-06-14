@@ -6,6 +6,25 @@
 //  Copyright (c) 2014 Ocodo. All rights reserved.
 //
 
+
+#include <stdio.h>
+
+typedef enum _CGSDebugOptions {
+    kCGSDebugOptionNone,
+    kCGSDebugOptionNoShadows = 16384
+} CGSDebugOptions;
+
+extern void CGSGetDebugOptions(CGSDebugOptions *options);
+extern void CGSSetDebugOptions(CGSDebugOptions options);
+
+bool toggle_shadows() {
+    CGSDebugOptions options;
+    CGSGetDebugOptions(&options);
+    options ^= kCGSDebugOptionNoShadows;
+    CGSSetDebugOptions(options);
+    return options == 0;
+}
+
 #import "OCODOAppDelegate.h"
 
 @implementation OCODOAppDelegate
@@ -15,4 +34,22 @@
     // Insert code here to initialize your application
 }
 
+- (void)awakeFromNib{
+    NSBundle *bundle = [NSBundle mainBundle];
+    
+    statusImage = [[NSImage alloc] initWithContentsOfFile: [bundle pathForResource: @"statusImageAlt" ofType: @"png"]];
+    statusImageAlt = [[NSImage alloc] initWithContentsOfFile: [bundle pathForResource: @"statusImageAlt" ofType: @"png"]];
+    
+    statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [statusItem setMenu: statusMenu];
+    [statusItem setImage: statusImage];
+    [statusItem setAlternateImage: statusImageAlt];
+    [statusItem setHighlightMode: YES];
+}
+
+- (IBAction)toggleShadows:(id)sender {
+    NSLog(@"Shadows: %i", toggle_shadows());
+}
+
 @end
+

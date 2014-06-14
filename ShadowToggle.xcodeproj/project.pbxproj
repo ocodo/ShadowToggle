@@ -12,12 +12,14 @@
 		960707FA194C141F00AAD075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960707F9194C141F00AAD075 /* main.m */; };
 		960707FE194C141F00AAD075 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 960707FC194C141F00AAD075 /* Credits.rtf */; };
 		96070801194C141F00AAD075 /* OCODOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96070800194C141F00AAD075 /* OCODOAppDelegate.m */; };
-		96070804194C141F00AAD075 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96070802194C141F00AAD075 /* MainMenu.xib */; };
 		96070806194C141F00AAD075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96070805194C141F00AAD075 /* Images.xcassets */; };
 		9607080D194C141F00AAD075 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9607080C194C141F00AAD075 /* XCTest.framework */; };
 		9607080E194C141F00AAD075 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960707ED194C141F00AAD075 /* Cocoa.framework */; };
 		96070816194C141F00AAD075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96070814194C141F00AAD075 /* InfoPlist.strings */; };
 		96070818194C141F00AAD075 /* ShadowToggleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96070817194C141F00AAD075 /* ShadowToggleTests.m */; };
+		96070823194C18CA00AAD075 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96070821194C18CA00AAD075 /* MainMenu.xib */; };
+		96070826194C1E4F00AAD075 /* statusImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 96070824194C1E4F00AAD075 /* statusImage.png */; };
+		96070827194C1E4F00AAD075 /* statusImageAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 96070825194C1E4F00AAD075 /* statusImageAlt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +45,15 @@
 		960707FD194C141F00AAD075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		960707FF194C141F00AAD075 /* OCODOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCODOAppDelegate.h; sourceTree = "<group>"; };
 		96070800194C141F00AAD075 /* OCODOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCODOAppDelegate.m; sourceTree = "<group>"; };
-		96070803194C141F00AAD075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		96070805194C141F00AAD075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9607080B194C141F00AAD075 /* ShadowToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9607080C194C141F00AAD075 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		96070813194C141F00AAD075 /* ShadowToggleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowToggleTests-Info.plist"; sourceTree = "<group>"; };
 		96070815194C141F00AAD075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96070817194C141F00AAD075 /* ShadowToggleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowToggleTests.m; sourceTree = "<group>"; };
+		96070822194C18CA00AAD075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ShadowToggle/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96070824194C1E4F00AAD075 /* statusImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusImage.png; sourceTree = SOURCE_ROOT; };
+		96070825194C1E4F00AAD075 /* statusImageAlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusImageAlt.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,6 @@
 			children = (
 				960707FF194C141F00AAD075 /* OCODOAppDelegate.h */,
 				96070800194C141F00AAD075 /* OCODOAppDelegate.m */,
-				96070802194C141F00AAD075 /* MainMenu.xib */,
 				96070805194C141F00AAD075 /* Images.xcassets */,
 				960707F4194C141F00AAD075 /* Supporting Files */,
 			);
@@ -127,6 +130,9 @@
 		960707F4194C141F00AAD075 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96070824194C1E4F00AAD075 /* statusImage.png */,
+				96070825194C1E4F00AAD075 /* statusImageAlt.png */,
+				96070821194C18CA00AAD075 /* MainMenu.xib */,
 				960707F5194C141F00AAD075 /* ShadowToggle-Info.plist */,
 				960707F6194C141F00AAD075 /* InfoPlist.strings */,
 				960707F9194C141F00AAD075 /* main.m */,
@@ -232,9 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				960707F8194C141F00AAD075 /* InfoPlist.strings in Resources */,
+				96070827194C1E4F00AAD075 /* statusImageAlt.png in Resources */,
 				96070806194C141F00AAD075 /* Images.xcassets in Resources */,
+				96070826194C1E4F00AAD075 /* statusImage.png in Resources */,
 				960707FE194C141F00AAD075 /* Credits.rtf in Resources */,
-				96070804194C141F00AAD075 /* MainMenu.xib in Resources */,
+				96070823194C18CA00AAD075 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +301,21 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		96070802194C141F00AAD075 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96070803194C141F00AAD075 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		96070814194C141F00AAD075 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				96070815194C141F00AAD075 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96070821194C18CA00AAD075 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96070822194C18CA00AAD075 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
